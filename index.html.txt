@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Razacart</title>
+</head>
+<body>
+  <h1>Welcome to Razacart 🛒</h1>
+  <p>This is your simple shopping site.</p>
+</body>
+</html>
