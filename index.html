@@ -2,60 +2,43 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <!-- 🔍 SEO Tags Start -->
-  <title>Razacart - Affordable Gadgets, Delivered Fast</title>
-  <meta name="description" content="Razacart is your local tech store for affordable gadgets, accessories, and more. Fast delivery across Kota, Ajmer, Bundi, and nearby cities." />
-  <meta name="keywords" content="Razacart, gadgets, tech store, cheap electronics, Kota, Rajasthan shopping, mobile accessories" />
-  <meta name="author" content="Razacart" />
-
-  <!-- 🌐 Open Graph (for Facebook, WhatsApp) -->
-  <meta property="og:title" content="Razacart - Affordable Gadgets" />
-  <meta property="og:description" content="Deals that deliver, right to your door. Shop budget gadgets now." />
-  <meta property="og:image" content="https://razacart.github.io/logo.png" />
-  <meta property="og:url" content="https://razacart.github.io" />
-  <meta property="og:type" content="website" />
-
-  <!-- 🐦 Twitter Card -->
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Razacart - Affordable Gadgets" />
-  <meta name="twitter:description" content="Deals that deliver, right to your door. Shop budget gadgets now." />
-  <meta name="twitter:image" content="https://razacart.github.io/logo.png" />
-
-  <!-- 🧿 Favicon -->
-  <link rel="icon" type="image/png" href="favicon.png" />
-  <!-- 🔍 SEO Tags End -->
-
-  <!-- ✅ CSS or other links (example) -->
-  <link rel="stylesheet" href="styles.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Razacart</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"/>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; }
+    body { background: #fff; color: #333; }
+    header { padding: 20px 40px; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #eee; }
+    nav a { margin-left: 20px; text-decoration: none; color: #333; font-weight: 500; }
+    .hero { display: flex; align-items: center; justify-content: space-between; padding: 60px 40px; }
+    .hero-text { max-width: 500px; }
+    .hero-text h1 { font-size: 3rem; margin-bottom: 20px; }
+    .hero-text p { font-size: 1.2rem; margin-bottom: 30px; color: #666; }
+    .btn { background: #000; color: #fff; padding: 12px 24px; border: none; cursor: pointer; text-transform: uppercase; }
+    .btn:hover { background: #333; }
+    .hero-img img { width: 400px; border-radius: 20px; }
+  </style>
 </head>
-
 <body>
-  <!-- 🛍️ Razacart Header -->
   <header>
-    <h1>Welcome to Razacart</h1>
-    <p>Deals that deliver</p>
+    <h2>Razacart</h2>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Products</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
   </header>
 
-  <!-- 📦 Sample Product Section -->
-  <section>
-    <h2>Featured Products</h2>
-    <div class="product">
-      <img src="images/product1.jpg" alt="Product 1">
-      <h3>Wireless Earbuds</h3>
-      <p>Rs. 799 only</p>
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Your Gadget Store</h1>
+      <p>Find the latest gadgets at unbeatable prices.</p>
+      <button class="btn">Shop Now</button>
     </div>
-    <div class="product">
-      <img src="images/product2.jpg" alt="Product 2">
-      <h3>Smart Watch</h3>
-      <p>Rs. 1299 only</p>
+    <div class="hero-img">
+      <img src="https://i.ibb.co/h18Y6W35/Razacart-chatgpt.webp" alt="Gadget Image"/>
     </div>
   </section>
-
-  <!-- 📞 Contact Info -->
-  <footer>
-    <p>Contact us: support@razacart.com | Kota, Rajasthan</p>
-  </footer>
 </body>
 </html>
