@@ -2,26 +2,151 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Razacart</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- 🔍 SEO Tags Start -->
+  <title>Razacart - Affordable Gadgets, Delivered Fast</title>
+  <meta name="description" content="Razacart is your local tech store for affordable gadgets, accessories, and more. Fast delivery across Kota, Ajmer, Bundi, and nearby cities." />
+  <meta name="keywords" content="Razacart, gadgets, tech store, cheap electronics, Kota, Rajasthan shopping, mobile accessories" />
+  <meta name="author" content="Razacart" />
+
+  <!-- 🌐 Open Graph (for Facebook, WhatsApp) -->
+  <meta property="og:title" content="Razacart - Affordable Gadgets" />
+  <meta property="og:description" content="Deals that deliver, right to your door. Shop budget gadgets now." />
+  <meta property="og:image" content="https://razacart.github.io/logo.png" />
+  <meta property="og:url" content="https://razacart.github.io" />
+  <meta property="og:type" content="website" />
+
+  <!-- 🐦 Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Razacart - Affordable Gadgets" />
+  <meta name="twitter:description" content="Deals that deliver, right to your door. Shop budget gadgets now." />
+  <meta name="twitter:image" content="https://razacart.github.io/logo.png" />
+
+  <!-- 🧿 Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png" />
+  <!-- 🔍 SEO Tags End -->
+
+  <!-- 🌟 Google Font -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"/>
+
+  <!-- ✅ Styling -->
   <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; }
-    body { background: #fff; color: #333; }
-    header { padding: 20px 40px; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #eee; }
-    nav a { margin-left: 20px; text-decoration: none; color: #333; font-weight: 500; }
-    .hero { display: flex; align-items: center; justify-content: space-between; padding: 60px 40px; }
-    .hero-text { max-width: 500px; }
-    .hero-text h1 { font-size: 3rem; margin-bottom: 20px; }
-    .hero-text p { font-size: 1.2rem; margin-bottom: 30px; color: #666; }
-    .btn { background: #000; color: #fff; padding: 12px 24px; border: none; cursor: pointer; text-transform: uppercase; }
-    .btn:hover { background: #333; }
-    .hero-img img { width: 400px; border-radius: 20px; }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: #fff;
+      color: #333;
+    }
+
+    header {
+      background: #1e1e2f;
+      color: white;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    header h1 {
+      font-size: 1.8rem;
+    }
+
+    header nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: white;
+      font-weight: 500;
+    }
+
+    .hero {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 60px 40px;
+      flex-wrap: wrap;
+    }
+
+    .hero-text {
+      max-width: 500px;
+    }
+
+    .hero-text h1 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+    }
+
+    .hero-text p {
+      font-size: 1.2rem;
+      margin-bottom: 30px;
+      color: #666;
+    }
+
+    .btn {
+      background: #007bff;
+      color: white;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      text-transform: uppercase;
+    }
+
+    .btn:hover {
+      background: #0056b3;
+    }
+
+    .hero-img img {
+      width: 350px;
+      border-radius: 20px;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+      padding: 2rem 40px;
+    }
+
+    .card {
+      background: white;
+      padding: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .card img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .card h3 {
+      margin-top: 10px;
+    }
+
+    .footer {
+      background: #1e1e2f;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
   </style>
 </head>
 <body>
+
+  <!-- 🛍️ Header -->
   <header>
-    <h2>Razacart</h2>
+    <h1>Razacart</h1>
     <nav>
       <a href="#">Home</a>
       <a href="#">Products</a>
@@ -30,6 +155,7 @@
     </nav>
   </header>
 
+  <!-- 🎯 Hero Section -->
   <section class="hero">
     <div class="hero-text">
       <h1>Your Gadget Store</h1>
@@ -40,5 +166,27 @@
       <img src="https://i.ibb.co/h18Y6W35/Razacart-chatgpt.webp" alt="Gadget Image"/>
     </div>
   </section>
+
+  <!-- 📦 Featured Products -->
+  <section class="products">
+    <div class="card">
+      <img src="https://via.placeholder.com/200x150" alt="Product 1" />
+      <h3>Bluetooth Earbuds</h3>
+      <p>₹999</p>
+      <button class="btn">Add to Cart</button>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/200x150" alt="Product 2" />
+      <h3>Smart Watch</h3>
+      <p>₹1,499</p>
+      <button class="btn">Add to Cart</button>
+    </div>
+  </section>
+
+  <!-- 📞 Footer -->
+  <footer class="footer">
+    <p>Contact us: support@razacart.com | Kota, Rajasthan</p>
+  </footer>
+
 </body>
 </html>
